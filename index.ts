@@ -1,4 +1,5 @@
-export * from 'styles/colors';
-export * from 'styles/fontFamily';
-export * from 'styles/globalStyles';
-export * from 'styles/sizes';
+import colors from "styles/colors"
+import globalStyles from "styles/globalStyles";
+import sizes from 'styles/sizes';
+
+export {colors as TWColors, globalStyles, sizes as TWSizes};

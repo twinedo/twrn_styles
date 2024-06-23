@@ -17,7 +17,7 @@ const ORANGE = '#FFA000';
 const YELLOW = '#FED500';
 const PINK = 'pink';
 
-export {
+const colors = {
   PRIMARY,
   SECONDARY,
   BLACK,
@@ -37,3 +37,5 @@ export {
   YELLOW,
   PINK,
 };
+
+export default colors;
