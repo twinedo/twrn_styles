@@ -1,5 +1,3 @@
-import colors from "styles/colors"
-import globalStyles from "styles/globalStyles";
-import sizes from 'styles/sizes';
+import {colors, globalStyles, sizes} from "styles"
 
 export {colors as TWColors, globalStyles, sizes as TWSizes};
