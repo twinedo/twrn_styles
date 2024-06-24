@@ -1,41 +1,21 @@
-const PRIMARY = '#00438C';
-const SECONDARY = '#7B0BFF';
-const BLACK = '#121212';
-const WHITE = '#FFFFFF';
-const RED = '#F31818';
-const GREYB11 = '#B1B1B1';
-const GREY7F = '#7f7e7c';
-const GREYD9 = '#D9D9D9';
-const GREEN1 = '#83BD75';
-const GREEN2 = '#009536';
-const SOFTGREEN = '#C3FFD9';
-const BLUE = '#2A94FA';
-const BLUE2 = '#189DE4';
-const BLUE3 = '#165091';
-const BLUE4 = '#1F3E7C';
-const ORANGE = '#FFA000';
-const YELLOW = '#FED500';
-const PINK = 'pink';
 
-const colors = {
-  PRIMARY,
-  SECONDARY,
-  BLACK,
-  WHITE,
-  RED,
-  GREEN1,
-  GREEN2,
-  GREYB11,
-  GREY7F,
-  GREYD9,
-  SOFTGREEN,
-  BLUE,
-  BLUE2,
-  BLUE3,
-  BLUE4,
-  ORANGE,
-  YELLOW,
-  PINK,
-};
-
-export default colors;
+export const colors = {
+ PRIMARY : '#00438C',
+ SECONDARY : '#7B0BFF',
+ BLACK : '#121212',
+ WHITE : '#FFFFFF',
+ RED : '#F31818',
+ GREYB11 : '#B1B1B1',
+ GREY7F : '#7f7e7c',
+ GREYD9 : '#D9D9D9',
+ GREEN1 : '#83BD75',
+ GREEN2 : '#009536',
+ SOFTGREEN : '#C3FFD9',
+ BLUE : '#2A94FA',
+ BLUE2 : '#189DE4',
+ BLUE3 : '#165091',
+ BLUE4 : '#1F3E7C',
+ ORANGE : '#FFA000',
+ YELLOW : '#FED500',
+ PINK : 'pink',
+}

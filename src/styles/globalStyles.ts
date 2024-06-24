@@ -1,8 +1,7 @@
 import {StyleSheet, ImageResizeMode} from 'react-native';
-
-import {BLACK, GREY7F, GREYD9, PRIMARY, RED, SECONDARY, WHITE} from './colors';
+import {colors} from './colors';
 import fontFamily from './fontFamily';
-import {percentageHeight, percentageWidth} from './sizes';
+import { percentageHeight, percentageWidth } from './sizes';
 
 function percentageImage(
   w: string | number | any,
@@ -25,7 +24,7 @@ const createdStyles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    backgroundColor: WHITE,
+    backgroundColor: colors.WHITE,
   },
   flexGrow: {
     flexGrow: 1,
@@ -144,22 +143,22 @@ const createdStyles = StyleSheet.create({
     left: 0,
   },
   useWhiteColor: {
-    color: WHITE,
+    color: colors.WHITE,
   },
   usePrimaryColor: {
-    color: PRIMARY,
+    color: colors.PRIMARY,
   },
   useGray2Color: {
-    color: GREY7F,
+    color: colors.GREY7F,
   },
   useGray3Color: {
-    color: GREYD9,
+    color: colors.GREYD9,
   },
   useGray3BgColor: {
-    backgroundColor: GREYD9,
+    backgroundColor: colors.GREYD9,
   },
   usePrimaryBgColor: {
-    backgroundColor: PRIMARY,
+    backgroundColor: colors.PRIMARY,
   },
   itemListImage: {
     width: percentageWidth(14.5),
@@ -180,10 +179,10 @@ const createdStyles = StyleSheet.create({
     width: '100%',
   },
   txtError: {
-    color: RED,
+    color: colors.RED,
   },
   useBlueColor: {
-    color: SECONDARY,
+    color: colors.SECONDARY,
   },
   paddingTopLg: {
     paddingTop: percentageWidth(12.25),
@@ -202,206 +201,206 @@ const createdStyles = StyleSheet.create({
 const textStyles = {
   headingBlack: StyleSheet.create({
     h1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.black,
       fontSize: 26,
     },
     h2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.black,
       fontSize: 20,
     },
     h3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.black,
       fontSize: 16,
     },
   }),
   headingBold: StyleSheet.create({
     h1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.bold,
 
       fontSize: 26,
     },
     h2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.bold,
 
       fontSize: 20,
     },
     h3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.bold,
       fontSize: 16,
     },
   }),
   headingLight: StyleSheet.create({
     h1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.light,
       fontSize: 26,
     },
     h2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.light,
       fontSize: 20,
     },
     h3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.light,
       fontSize: 16,
     },
   }),
   headingMedium: StyleSheet.create({
     h1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.medium,
       fontSize: 26,
     },
     h2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.medium,
       fontSize: 20,
     },
     h3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.medium,
       fontSize: 16,
     },
   }),
   headingRegular: StyleSheet.create({
     h1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.regular,
       fontSize: 26,
     },
     h2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.regular,
       fontSize: 20,
     },
     h3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.regular,
       fontSize: 16,
     },
   }),
   headingThin: StyleSheet.create({
     h1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.thin,
       fontSize: 26,
     },
     h2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.thin,
       fontSize: 20,
     },
     h3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.thin,
       fontSize: 16,
     },
   }),
   bodyBlack: StyleSheet.create({
     h1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.black,
       fontSize: 14,
     },
     h2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.black,
       fontSize: 12,
     },
     h3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.black,
       fontSize: 10,
     },
   }),
   bodyBold: StyleSheet.create({
     h1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.bold,
       fontSize: 14,
     },
     h2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.bold,
       fontSize: 12,
     },
     h3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.bold,
       fontSize: 10,
     },
   }),
   bodyLight: StyleSheet.create({
     h1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.light,
       fontSize: 14,
     },
     h2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.light,
       fontSize: 12,
     },
     h3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.light,
       fontSize: 10,
     },
   }),
   bodyMedium: StyleSheet.create({
     body1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.medium,
       fontSize: 14,
     },
     body2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.medium,
       fontSize: 12,
     },
     body3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.medium,
       fontSize: 10,
     },
   }),
   bodyRegular: StyleSheet.create({
     body1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.regular,
       fontSize: 14,
     },
     body2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.regular,
       fontSize: 12,
     },
     body3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.regular,
       fontSize: 10,
     },
   }),
   bodyThin: StyleSheet.create({
     body1: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.thin,
       fontSize: 14,
     },
     body2: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.thin,
       fontSize: 12,
     },
     body3: {
-      color: BLACK,
+      color: colors.BLACK,
       fontFamily: fontFamily.thin,
       fontSize: 10,
     },
@@ -414,7 +413,7 @@ const mergedStyles = {
     createdStyles.alignCenter,
   ]),
 };
-const globalStyles = {
+const globalStyles: { [key: string]: object } = {
   ...mergedStyles,
   ...createdStyles,
   ...textStyles,
