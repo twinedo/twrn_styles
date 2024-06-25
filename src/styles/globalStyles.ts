@@ -413,11 +413,11 @@ const mergedStyles = {
     createdStyles.alignCenter,
   ]),
 };
-const globalStyles: { [key: string]: object } = {
+export const globalStyles = {
   ...mergedStyles,
   ...createdStyles,
   ...textStyles,
   percentageImage,
-} as const;
+};
 
-export default globalStyles;
+export type GlobalStyles = typeof globalStyles;
