@@ -1,3 +1,5 @@
 // import {colors, globalStyles, sizes} from "styles"
 
-export {colors as TWColors} from 'styles';
+import {colors} from 'styles';
+
+export {colors}
