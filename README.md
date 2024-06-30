@@ -1,4 +1,5 @@
-This is a style for **React Native** , simply `import TWstyles from 'twrn_styles'` and use `TWRN.displayFlex` for `flex: 1`.
+This is a style for **React Native** , 
+simply `import TWstyles from 'twrn_styles'` and use `TWRN.displayFlex` for `flex: 1`.
 You can contribute to this project to add more `styles`.
 
 # Installation
@@ -12,6 +13,6 @@ or
 
 # Example
 
-`import TWStyles from 'twrn_styles`
+`import TWStyles from 'twrn_styles'`
 
 `<View style={TWStyles.displayFlex} />`
