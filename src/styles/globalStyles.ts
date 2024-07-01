@@ -32,6 +32,18 @@ const createdStyles = StyleSheet.create({
   displayFlex: {
     flex: 1,
   },
+  flex1p5: {
+    flex: 1.5,
+  },
+  flex2: {
+    flex: 2,
+  },
+  flex2p5: {
+    flex: 2.5,
+  },
+  flex3: {
+    flex: 3,
+  },
   flexWrap: {
     flexWrap: 'wrap',
   },
